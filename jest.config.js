@@ -20,4 +20,11 @@ module.exports = {
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)',
   ],
   testURL: 'http://localhost/',
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.{js}', // Add ,vue to enable vue files
+    '!src/main.js', // No need to cover bootstrap file
+    '!src/stores/index.js', // No need to cover store index
+    '!src/content-script.js', // Ignore content-script
+  ],
 };
