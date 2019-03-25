@@ -15,7 +15,7 @@ A browser extension for monitoring HTML5 media elements.
 and more!
 
 ## Available version
-A Chrome Extension is currently available. Support for more browsers is coming soon!
+A [Chrome Extension](https://chrome.google.com/webstore/detail/media-monitor/jhmldnninjninhlnofnkoijkdkakelco) is currently available. Support for more browsers is coming soon!
 
 ## Upcoming features
 
